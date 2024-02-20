@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="685.000000pt"
+   height="685.000000pt"
+   viewBox="0 0 685.000000 685.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg27"
+   sodipodi:docname="profile.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs31" />
+  <sodipodi:namedview
+     id="namedview29"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="pt"
+     showgrid="false"
+     inkscape:zoom="0.16"
+     inkscape:cx="334.375"
+     inkscape:cy="1000"
+     inkscape:window-width="1296"
+     inkscape:window-height="890"
+     inkscape:window-x="65"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <metadata
+     id="metadata21" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     style="display:inline;opacity:1">
+    <ellipse
+       style="fill:#36393f;fill-opacity:1;stroke:#d68d20;stroke-width:16.002;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path848"
+       cx="342.54913"
+       cy="342.65317"
+       rx="334.57391"
+       ry="334.68961" />
+    <circle
+       style="fill:#36393f;fill-opacity:1;stroke:#d68d20;stroke-width:14.682;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="background"
+       cx="342.60944"
+       cy="342.51483"
+       r="0" />
+    <circle
+       style="fill:#d68d20;fill-opacity:1;stroke:#d68d20;stroke-width:9.59707;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4001"
+       cx="213.52734"
+       cy="227.44141"
+       r="33.20536" />
+    <circle
+       style="fill:#d68d20;fill-opacity:1;stroke:#d68d20;stroke-width:7.74542;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4003"
+       cx="446.32031"
+       cy="227.97656"
+       r="34.666359" />
+    <rect
+       style="fill:#d68d20;fill-opacity:1;stroke:#d68d20;stroke-width:4.231;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4027"
+       width="400.03592"
+       height="16.864037"
+       x="134.4547"
+       y="453.40784" />
+  </g>
+</svg>

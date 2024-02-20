@@ -1,0 +1,12 @@
+
+bind = 127.0.0.1:8080
+sitename = Bin404
+siteurl = https://bin.404.example/
+selifpath = s
+maxsize = 4294967296
+maxexpiry = 86400
+allowhotlink = true
+remoteuploads = true
+nologs = true
+force-random-filename = false
+cleanup-every-minutes = 5

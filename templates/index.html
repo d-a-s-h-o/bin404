@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link href='{{ sitepath }}static/css/dropzone.css' media='screen, projection' rel='stylesheet' type='text/css'>
+{% endblock %}
+
+{% block content %}
+<div id="fileupload">
+    <form action="{{ sitepath }}upload" class="dropzone" id="dropzone" method="POST" enctype="multipart/form-data"
+        data-maxsize="{{ maxsize }}" data-auth="{{ auth }}">
+        <div class="fallback">
+            <label for="fileinput" class="file-upload">☁️ Choose File</label>
+            <input id="fileinput" name="file" type="file" /><br />
+            <input id="submitbtn" type="submit" value="Upload">
+        </div>
+
+        <div id="dzone" class="dz-default dz-message">
+            <span>Click or Drop file(s) or Paste image</span>
+        </div>
+
+        <div id="choices">
+            <span class="hint--top hint--bounce"
+                data-hint="Replace the filename with random characters. The file extension is retained">
+                <label><input {% if forcerandom %} disabled {% endif %} name="randomize" id="randomize" type="checkbox"
+                        checked /> Randomize filename</label>
+            </span>
+
+            <div id="expiry">
+                <label>File expiry:
+                    <select name="expires" id="expires">
+                        {% for expiry in expirylist %}
+                        <option value="{{ expiry.Seconds }}" {% if forloop.Last %} selected{% endif %}>
+                            {{ expiry.Human }}</option>
+                        {% endfor %}
+                    </select>
+                </label>
+            </div>
+            <!-- <div id="access_key">
+                <span class="hint--top hint--bounce"
+                    data-hint="Require password to access (this encrypts the file at rest and limits access)">
+                    <label>
+                        <input type="checkbox" id="access_key_checkbox" />
+                        <span id="access_key_text">Require access password</span>
+                    </label>
+                    <input id="access_key_input" name="access_key" type="text" placeholder="Access password" />
+                </span>
+            </div> -->
+        </div>
+        <div class="clear"></div>
+    </form>
+    <div id="uploads"></div>
+    <div class="clear"></div>
+</div>
+
+<!-- <script src="{{ sitepath }}static/js/dropzone.js"></script>
+<script src="{{ sitepath }}static/js/upload.js"></script> -->
+{% endblock %}

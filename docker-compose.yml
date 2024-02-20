@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  web:
+    image: ghcr.io/d-a-s-h-o/bin404:latest
+    volumes:
+      - ./files:/data/files
+      - ./meta:/data/meta
+    ports:
+      - "8080:8080"
