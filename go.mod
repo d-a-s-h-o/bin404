@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/GeertJohan/go.rice v1.0.0
-	github.com/aws/aws-sdk-go v1.29.19
+	github.com/aws/aws-sdk-go v1.34.0
 	github.com/dchest/uniuri v0.0.0-20200228104902-7aecb25e1fe5
 	github.com/dustin/go-humanize v1.0.0
 	github.com/flosch/pongo2 v0.0.0-20190707114632-bbf5a6c351f4
@@ -20,7 +20,7 @@ require (
 
 require (
 	github.com/daaku/go.zipexe v1.0.0 // indirect
-	github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af // indirect
+	github.com/jmespath/go-jmespath v0.3.0 // indirect
 	github.com/juju/errors v0.0.0-20181118221551-089d3ea4e4d5 // indirect
 	golang.org/x/net v0.0.0-20200202094626-16171245cfb2 // indirect
 )
