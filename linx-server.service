@@ -1,0 +1,11 @@
+[Unit]
+Description=Self-hosted file/code/media sharing website
+After=network.target
+
+[Service]
+User=bin404
+Group=bin404
+ExecStart=/usr/bin/bin404
+
+[Install]
+WantedBy=multi-user.target
