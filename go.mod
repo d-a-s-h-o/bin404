@@ -1,6 +1,6 @@
 module github.com/d-a-s-h-o/bin404
 
-go 1.18
+go 1.24.0
 
 require (
 	github.com/GeertJohan/go.rice v1.0.0
@@ -15,12 +15,12 @@ require (
 	github.com/vharitonsky/iniflags v0.0.0-20180513140207-a33cd0b5f3de
 	github.com/zeebo/bencode v1.0.0
 	github.com/zenazn/goji v0.9.0
-	golang.org/x/crypto v0.21.0
+	golang.org/x/crypto v0.45.0
 )
 
 require (
 	github.com/daaku/go.zipexe v1.0.0 // indirect
 	github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af // indirect
 	github.com/juju/errors v0.0.0-20181118221551-089d3ea4e4d5 // indirect
-	golang.org/x/net v0.23.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
 )
